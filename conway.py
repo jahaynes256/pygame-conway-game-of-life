@@ -5,7 +5,7 @@ import pygame, random, time, math, copy
 ROWS = 125
 COLS = 125
 CELL_SIZE = 4
-INITIAL_POP = 0.07
+INITIAL_POP = 0.20
 
 # ---Debug Functions---
 def matrixCheckSum(matrix):

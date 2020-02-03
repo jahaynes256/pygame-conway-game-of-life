@@ -1,5 +1,6 @@
 import pygame, random, time, math
 
+
 #Global Variables
 rows = 125
 cols = 125
@@ -69,8 +70,6 @@ pygame.display.set_icon(icon)
 #Sprites
 aliveIMG = pygame.image.load('res\\alive_4.png')
 deadIMG = pygame.image.load('res\\dead_4.png')
-debug1IMG = pygame.image.load('res\\debug1_4.png')
-debug2IMG = pygame.image.load('res\\debug2_4.png')
 
 #Data Structures
 cellAlive = randMatrix()
